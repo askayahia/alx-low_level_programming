@@ -4,7 +4,7 @@
 #include "hash_tables.h"
 
 /**
- * shash_table_create - Create a sorted hash table
+ * shash_table_create - Creates a sorted hash table!
  * @size: The size of the array
  * Return: Pointer to the newly created sorted hash table
  */
@@ -25,8 +25,8 @@ shash_table_t *shash_table_create(unsigned long int size)
 }
 
 /**
- * shash_table_set - Add or update key/value pair to the sorted hash table
- * @ht: Pointer to the sorted hash table
+ * shash_table_set - Adds or update key/value pair to the sorted hash table!
+ * @ht: A pointer to the sorted hash table
  * @key: The key (string)
  * @value: The value corresponding to the key
  * Return: 1 if success, 0 if failure
@@ -95,7 +95,7 @@ int shash_table_set(shash_table_t *ht, const char *key, const char *value)
 }
 
 /**
- * shash_table_get - Retrieves a value associated with a key
+ * shash_table_get - Retrieve a value associated with a key!
  * @ht: Pointer to the sorted hash table
  * @key: The key (string)
  * Return: The value associated with the key, or NULL if key not found
@@ -121,8 +121,8 @@ char *shash_table_get(const shash_table_t *ht, const char *key)
 }
 
 /**
- * shash_table_print - Print the sorted hash table
- * @ht: Pointer to the sorted hash table
+ * shash_table_print - Prints the sorted hash table!
+ * @ht: A pointer to the sorted hash table
  */
 void shash_table_print(const shash_table_t *ht)
 {
@@ -144,7 +144,7 @@ void shash_table_print(const shash_table_t *ht)
 }
 
 /**
- * shash_table_print_rev - Print the sorted hash table in reverse order
+ * shash_table_print_rev - Prints the sorted hash table in reverse order
  * @ht: Pointer to the sorted hash table
  */
 void shash_table_print_rev(const shash_table_t *ht)

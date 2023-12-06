@@ -3,10 +3,10 @@
 #include <stdlib.h>
 
 /**
- * hash_table_set - Adds an element to the hash table.
- * @ht: Pointer to the hash table
+ * hash_table_set - adds an element to the hash table.
+ * @ht: Pointer to the hash table!
  * @key: The key to add or update
- * @value: The value associated with the key
+ * @value: Value associated with the key
  *
  * Return: 1 if successful, 0 otherwise
  */

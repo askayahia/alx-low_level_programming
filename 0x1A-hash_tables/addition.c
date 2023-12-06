@@ -4,7 +4,7 @@
 #include "hash_tables.h"
 
 /**
- * shash_table_delete - Delete the sorted hash table
+ * shash_table_delete - Deletes the sorted hash table!
  * @ht: Pointer to the sorted hash table
  */
 void shash_table_delete(shash_table_t *ht)
